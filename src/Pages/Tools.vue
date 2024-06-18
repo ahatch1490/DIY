@@ -60,6 +60,7 @@ const items: Array<GridItem> = [{
 </script>
 
 <template>
+  <h1 class="text-center text-bold m-2">Tools</h1>
   <ItemGrid v-bind:items ></ItemGrid>
 </template>
 
