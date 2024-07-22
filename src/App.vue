@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <router-view></router-view>
+  <div class="bg-emerald-950 h-auto">
+    <router-view></router-view>\
+  </div>
+  <
 </template>
 
 <style scoped>
