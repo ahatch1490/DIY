@@ -3,5 +3,5 @@ export interface GridItem {
     image_url:string,
     link_url:string,
     description:string,
-    stars:number,
+    stars:{selected:number, count:number},
 }

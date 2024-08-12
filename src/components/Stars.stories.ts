@@ -14,5 +14,5 @@ export const Basic: Story= {
         },
         template: '<Stars v-bind="args" />',
     }),
-    args: {count:5, selected:3}
+    args: {stars:{count:5, selected:4}},
 };

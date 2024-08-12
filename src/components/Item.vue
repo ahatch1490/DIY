@@ -3,7 +3,6 @@
 
   defineProps(['image_url', 'title','description', 'link_url','stars'
   ])
-    const data =  {count:5, selected:3};
 
  // const count = 5;
  // const data = {count:5,selected:}
@@ -18,10 +17,9 @@
           <a :href=link_url target="_blank" class="row-auto items-center justify-self-center rounded">
             <img class=" h-24 font-semibold mb-1.5 items-center rounded" :src="image_url" alt={{title}}>  </img>
           </a>
+          <Stars v-bind:stars></Stars>
         </div>
-        <div>
-          <Stars v-bind:data></Stars>
-        </div>
+
       </div>
       </div>
 
