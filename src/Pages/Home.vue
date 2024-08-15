@@ -2,15 +2,19 @@
 import ItemGrid from "../components/ItemGrid.vue";
 import {GridItem} from "../types/GridItem.ts";
 const items: Array<GridItem> = [{
+  id: 1,
   title: 'Tools',
   image_url:'/images/rigid_drills.jpg',
   description: '',
-  link_url:"/tools"
+  link_url:"/tools",
+  stars: null
 },{
+  id: 2,
   title: 'Library',
   image_url:'/images/Library/lib_step_8.jpeg',
   description: '',
-  link_url:"/Library"
+  link_url:"/Library",
+  stars: null
 }]
 </script>
 
