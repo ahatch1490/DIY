@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
 import Item  from './Item.vue';
-import {GridItem} from "../types/GridItem.ts";
 
 
 const meta: Meta<typeof Item> = {
